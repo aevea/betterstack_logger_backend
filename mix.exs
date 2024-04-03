@@ -37,7 +37,7 @@ defmodule BetterstackLogger.MixProject do
     [
       {:typed_struct, "~> 0.3.0"},
       {:bertex, "~> 1.3"},
-      {:etso, "~> 1.0.0"},
+      {:etso, git: "https://github.com/kickplan/etso"},
       {:betterstack_api_client, "~> 0.3.5"},
 
       # Test and Dev
